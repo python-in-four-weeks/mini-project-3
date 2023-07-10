@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "mini-project-3"
+version = "0.1.0"
+description = "Mini-Project 3 of Software Engineering Foundations"
+authors = ["Emily Flynn <emily.flynn@softwire.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^2.3.2"
+flask-cors = "^3.0.10"
+flask-marshmallow = "^0.15.0"
+flask-sqlalchemy = "^3.0.3"
+marshmallow = "^3.19.0"
+marshmallow-sqlalchemy = "^0.29.0"
+sqlalchemy = "^2.0.15"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+pytest-mock = "^3.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
